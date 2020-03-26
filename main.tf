@@ -1,1 +1,4 @@
-module
+module "gke" {
+    source = "./module/gke"
+    
+}
